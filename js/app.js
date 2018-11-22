@@ -1,11 +1,11 @@
 (function() {
     'use strict';
 
-    var modal = Document.getElementsByClassName("modal")[0];
+    var modal = document.getElementsByClassName("modal")[0];
 
-    var createButton = Document.getElementsById("creatButton");
-    debugger;
-    createButton.onClick = function() {
+    var createButton = document.getElementById("createButton");
+    
+    createButton.onclick = function() {
         modal.style.display = "block";
     };
 
